@@ -14,3 +14,5 @@ app.get('/', function(req, res) {
 app.post('/shorten', function(req, res) {
     shorten(req, res);
 })
+
+export default app;
