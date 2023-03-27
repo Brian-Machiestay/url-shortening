@@ -1,7 +1,7 @@
 import React from "react";
 
-const GetStarted = () => {
-    return <a href="#" className="start">Get Started</a>;
+const GetStarted = (props) => {
+    return <a href="#" className="start">{ props.text }</a>;
 }
 
 export default GetStarted;
