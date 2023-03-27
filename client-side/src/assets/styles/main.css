@@ -18,3 +18,11 @@
 .textJumbo p, .textJumbo h2, .textJumbo a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* design get-started button */
+.start {
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: -2px 2px rgb(125, 238, 201);
+    padding: 8px;
+}
