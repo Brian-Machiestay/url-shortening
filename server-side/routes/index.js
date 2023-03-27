@@ -1,5 +1,5 @@
-import Homepage from '../controllers/appController';
-import shorten from '../controllers/shortenController';
+const Homepage = require('../controllers/appController');
+const shorten = require('../controllers/shortenController');
 
 const express = require('express');
 const app = express();
@@ -15,4 +15,4 @@ app.post('/shorten', function(req, res) {
     shorten(req, res);
 })
 
-export default app;
+module.exports = app;

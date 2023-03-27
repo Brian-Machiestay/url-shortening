@@ -1,6 +1,8 @@
-import app from "./routes";
+const app = require("./routes/index");
 
 const port = 5000;
-app.listen(port, () => {
-    console.log('This server is listening on port ${port}');
-})
+const server = app.listen(port, () => {
+    console.log('This server is listening on port 5000');
+});
+
+module.exports = server;

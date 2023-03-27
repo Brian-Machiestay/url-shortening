@@ -1,5 +1,5 @@
 const Homepage = (req, res) => {
-    res.sendFile('../../client-side/public/index.html');
+    res.send(JSON.stringify({status: "ok"}));
 }
 
-export default Homepage;
+module.exports = Homepage;

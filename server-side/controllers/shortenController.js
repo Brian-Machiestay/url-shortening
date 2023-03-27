@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const shorten = (req, res) => {
     const url = req.params['url'];
-    return axios.get('https://api.shrtco.de/v2/shorten?url')
+    return axios.get('https://api.shrtco.de/v2/shorten?url=${url}')
     .then((response) => {
         const short = response.result.full_short_link;
         res.send(short);
@@ -11,4 +11,4 @@ const shorten = (req, res) => {
     })
 }
 
-export default shorten;
+module.exports = shorten;
