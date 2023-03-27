@@ -1,4 +1,5 @@
 import React from "react";
+import jumbologo from '../assets/images/illustration-working.svg';
 
 const Jumbotron = () => {
     return (
@@ -9,7 +10,7 @@ const Jumbotron = () => {
                 <a href="#" className="start">Get started</a>
             </div>
             <div className="imageJumbo">
-                <img src=""></img>
+                <img src={ jumbologo } alt="working illustration" />
             </div>
         </div>
     )

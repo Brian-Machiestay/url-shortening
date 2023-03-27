@@ -1,0 +1,20 @@
+/* styles for jumbotron section */
+
+.jumbotron {
+    margin-left: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textJumbo {
+    margin-right: 100px;
+}
+
+.textJumbo h2 {
+    font-size: 40pt;
+}
+
+.textJumbo p, .textJumbo h2, .textJumbo a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
