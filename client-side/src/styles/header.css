@@ -1,0 +1,23 @@
+/* styles for the header component */
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(145, 145, 145)
+}
+
+.login {
+    margin-left: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+}
