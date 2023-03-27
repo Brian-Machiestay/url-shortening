@@ -4,12 +4,12 @@ function HeaderComponent() {
     return (
     <div className="header">
         <ul className="nav">
-            <li className="logo">Shortly</li>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Resources</li>
-            <li className="login">Login</li>
-            <li className="signup">Sign up</li>
+            <a href="#"><li className="logo">Shortly</li></a>
+            <a href="#"><li>Features</li></a>
+            <a href="#"><li>Pricing</li></a>
+            <a href="#"><li>Resources</li></a>
+            <a href="#"  className="login"><li>Login</li></a>
+            <a href="#"><li className="signup">Sign up</li></a>
         </ul>
     </div>
     )

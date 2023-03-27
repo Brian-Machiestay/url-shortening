@@ -1,16 +1,23 @@
 /* styles for the header component */
+a {
+    text-decoration: none;
+}
 
 .nav {
     display: flex;
     align-items: center;
 }
 li {
-    text-decoration: none;
     list-style: none;
     margin-right: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(145, 145, 145)
 }
+
+li:hover {
+    color: black;
+}
+
 
 .login {
     margin-left: auto;
@@ -20,4 +27,7 @@ li {
     font-weight: bold;
     font-size: 20pt;
     color: black;
+    margin-right: 40px;
 }
+
+
