@@ -82,3 +82,22 @@
 .advancedText {
     margin-top: 100px;
 }
+
+/* styles for stat component */
+.brandStat {
+    margin: 100px 150px;
+    width: 23%;
+    background-color: #fff;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.statLogo {
+    background-color: rgb(105, 23, 135);
+    width: 52px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 26px;
+    padding-left: 4px;
+    margin-top: -20px;
+}
