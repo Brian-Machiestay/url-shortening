@@ -1,5 +1,7 @@
 import React from "react";
 import Shorten from "./shorten";
+import BrandStat from "./stat";
+import recogniton from "../assets/images/icon-brand-recognition.svg"
 
 const StatSection = () => {
     return (
@@ -12,8 +14,7 @@ const StatSection = () => {
             <p>Lorem ipsum kldfjkdlfd fdflkjdfkjdfjdfdjfk dfkdlfdfjldkfslfslfs
                 djfldkfjdlfjdfdfsjldkfslkf
             </p>
-            <div className="advanced">
-            </div>
+            <BrandStat cls="recognize" icon={recogniton} />
         </div>
     )
 }
