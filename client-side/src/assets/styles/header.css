@@ -1,0 +1,47 @@
+/* styles for the header component */
+a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style: none;
+    margin-right: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(145, 145, 145)
+}
+
+li:hover {
+    color: black;
+}
+
+
+.login {
+    margin-left: auto;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20pt;
+    color: black;
+    margin-right: 40px;
+}
+
+.signup {
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: auto;
+    height: 30px;
+    box-shadow: -2px 2px rgb(3, 180, 92);
+    margin-right: 30px;
+}
+
+.signup li {
+    margin-left: 12px;
+    margin-top: 5px;
+    color: white;
+}
+

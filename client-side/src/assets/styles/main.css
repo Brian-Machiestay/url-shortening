@@ -1,0 +1,117 @@
+/* styles for jumbotron section */
+
+.jumbotron {
+    margin-left: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textJumbo {
+    margin-right: 100px;
+}
+
+.textJumbo h2 {
+    font-size: 40pt;
+}
+
+.textJumbo p, .textJumbo h2, .textJumbo a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textJumbo p {
+    margin-bottom: 80px;
+}
+
+/* design get-started button */
+.start {
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: -2px 2px rgb(125, 238, 201);
+    padding: 8px;
+    color: #fff;
+}
+
+/* stats section styles */
+
+.stats {
+    background-color: rgb(233, 234, 243);
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* styles for shorten component */
+
+.stats .shortenDiv {
+    width: 60%;
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-color: rgb(139, 114, 163);
+    height: 80px;
+    padding: auto;
+    margin-top: -35px;
+    border-radius: 5px;
+}
+
+.shortenItems {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.shortenDiv textarea {
+    width: 70%;
+    resize: none;
+}
+
+
+.shorten {
+    width: 20%;
+    background-color: rgb(31, 210, 180);
+    padding: 7.5px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 15pt;
+    color: white;
+}
+
+.advancedText {
+    margin-top: 100px;
+}
+
+/* styles for stat component */
+.iconItems {
+    display: flex; 
+    margin: 100px 150px;
+}
+
+
+.brandStat {
+    width: 23%;
+    background-color: #fff;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.statLogo {
+    background-color: rgb(105, 23, 135);
+    width: 52px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 26px;
+    padding-left: 4px;
+    margin-top: -20px;
+}
+
+
+
+.connect {
+    width: 40px;
+    background-color: green;
+    height: 10px;
+    margin-top: 100px;
+}
