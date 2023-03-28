@@ -5,7 +5,7 @@ const Shorten = () => {
         <div className="shortenDiv">
             <div className="shortenItems">
                 <textarea></textarea>
-                <a href="#" className="shorten">shorten it</a>
+                <button className="shorten">shorten it</button>
             </div>
         </div>
     )

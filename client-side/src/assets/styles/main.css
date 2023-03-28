@@ -70,9 +70,15 @@
 .shorten {
     width: 20%;
     background-color: rgb(31, 210, 180);
-    padding: auto;
     padding: 7.5px;
-    margin-left: 4px;
     border-radius: 5px;
     text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 15pt;
+    color: white;
+}
+
+.advancedText {
+    margin-top: 100px;
 }
