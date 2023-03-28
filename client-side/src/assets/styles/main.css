@@ -84,8 +84,13 @@
 }
 
 /* styles for stat component */
-.brandStat {
+.iconItems {
+    display: flex; 
     margin: 100px 150px;
+}
+
+
+.brandStat {
     width: 23%;
     background-color: #fff;
     padding-left: 20px;
@@ -100,4 +105,13 @@
     border-radius: 26px;
     padding-left: 4px;
     margin-top: -20px;
+}
+
+
+
+.connect {
+    width: 40px;
+    background-color: green;
+    height: 10px;
+    margin-top: 100px;
 }
