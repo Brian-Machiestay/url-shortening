@@ -31,3 +31,10 @@
     padding: 8px;
     color: #fff;
 }
+
+/* stats section styles */
+
+.stats {
+    background-color: violet;
+    margin-top: 80px;
+}

@@ -1,12 +1,10 @@
 import React from "react";
+import Shorten from "./shorten";
 
 const StatSection = () => {
     return (
         <div className="stats">
-            <div className="shortenDiv">
-                <textarea></textarea>
-                <a href="#">shorten it</a>
-            </div>
+            <Shorten />
             <p>Lorem ipsum kldfjkdlfd fdflkjdfkjdfjdfdjfk dfkdlfdfjldkfslfslfs
                 dkfdlfkdjflksjflskjfslkdfjslfdjdlkfdjfldkfjdlfjdfdfsjldkfslkf
             </p>
