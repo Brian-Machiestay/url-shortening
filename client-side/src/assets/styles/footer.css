@@ -1,0 +1,29 @@
+/* styles for the footer component */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(45, 44, 44)
+}
+
+.footer p {
+    color: rgb(255, 255, 255);
+}
+
+.resources, .features, .company {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: rgb(183, 180, 180);
+}
+
+.socialIcons {
+    margin-top: 20px;
+}
+
+.socialIcons img {
+    margin-right: 8px;
+}
