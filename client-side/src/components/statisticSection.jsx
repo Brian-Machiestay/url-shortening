@@ -21,12 +21,8 @@ const StatSection = () => {
         <div className="stats">
             <Shorten />
             <h3 className="advancedText">Advanced Statistics</h3>
-            <p>Lorem ipsum kldfjkdlfd fdflkjdfkjdfjdfdjfk dfkdlfdfjldkfslfslfs
-                dkfdlfkdjflksjflskjfslkdfjslfdjdlkfdjfldkfjdlfjdfdfsjldkfslkf
-            </p>
-            <p>Lorem ipsum kldfjkdlfd fdflkjdfkjdfjdfdjfk dfkdlfdfjldkfslfslfs
-                djfldkfjdlfjdfdfsjldkfslkf
-            </p>
+            <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
+            <p>And add confidence to your content</p>
             <div className="iconItems">
                 <BrandStat cls="recognize" icon={recogniton} title={brand1Title} text={brand1text} />
                 <div className="connect"></div>
