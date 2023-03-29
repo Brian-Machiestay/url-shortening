@@ -29,10 +29,10 @@ const Footer = () => {
                 <a href="#">Contact</a>
             </div>
             <div className="socialIcons">
-                <img src={facebook} alt='facebook'></img>
-                <img src={instagram} alt='instagram'></img>
-                <img src={twitter} alt='twitter'></img>
-                <img src={pinterest} alt='pinterest'></img>
+                <a href="#"><img src={facebook} alt='facebook'></img></a>
+                <a href="#"><img src={instagram} alt='instagram'></img></a>
+                <a href="#"><img src={twitter} alt='twitter'></img></a>
+                <a href="#"><img src={pinterest} alt='pinterest'></img></a>
             </div>
         </div>
     )
