@@ -1,9 +1,13 @@
 import React from "react";
 import facebook from "../assets/images/icon-facebook.svg";
+import instagram from "../assets/images/icon-instagram.svg";
+import twitter from "../assets/images/icon-twitter.svg";
+import pinterest from "../assets/images/icon-pinterest.svg";
+
 
 const Footer = () => {
     return (
-        <div>
+        <div className="footer">
             <p href="#" className="logo groupTitle">Shortly</p>
             <div className="features">
                 <p>Features</p>
@@ -26,6 +30,9 @@ const Footer = () => {
             </div>
             <div className="socialIcons">
                 <img src={facebook} alt='facebook'></img>
+                <img src={instagram} alt='instagram'></img>
+                <img src={twitter} alt='twitter'></img>
+                <img src={pinterest} alt='pinterest'></img>
             </div>
         </div>
     )
