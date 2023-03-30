@@ -5,7 +5,7 @@ const BrandStat = (props) => {
     
     return (
         <div className={classes}>
-            <div className="statLogo"><img src={props.icon}></img></div>
+            <div className="statLogo"><img src={props.icon} alt="logo"></img></div>
             <h2>{props.title}</h2>
             <p>{props.text}</p>
         </div>
