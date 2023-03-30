@@ -4,12 +4,12 @@ function HeaderComponent() {
     return (
     <div className="header">
         <ul className="nav">
-            <a href="#"><li className="logo">Shortly</li></a>
-            <a href="#"><li>Features</li></a>
-            <a href="#"><li>Pricing</li></a>
-            <a href="#"><li>Resources</li></a>
-            <a href="#"  className="login"><li>Login</li></a>
-            <a href="#"  className="signup"><li>Sign up</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"><li className="logo">Shortly</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"><li>Features</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"><li>Pricing</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"><li>Resources</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"  className="login"><li>Login</li></a>
+            <a href="https://github.com/Brian-Machiestay/url-shortening"  className="signup"><li>Sign up</li></a>
         </ul>
     </div>
     )
