@@ -8,7 +8,7 @@ import constom from "../assets/images/icon-fully-customizable.svg";
 const StatSection = () => {
     const brand1Title = 'Brand Recognition';
     const brand1text = `Boost your brand recognition 
-    with each click. Generic links don\'t mean 
+    with each click. Generic links don't mean 
     a thing. Branded links help instil confidence in your content`
     const brand2Title = 'Detailed Records';
     const brand2text = `Gain insights into who is clicking your links.
