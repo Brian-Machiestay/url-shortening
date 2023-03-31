@@ -1,11 +1,20 @@
 import React from "react";
 
-const Shorten = () => {
+const Shorten = ({ setLink, setLetsdo}) => {
+
+    function saveUrl(e) {
+        setLink(e.target.value);
+    }
+
+    function setlets(e) {
+        setLetsdo(true);
+    }
+
     return (
         <div className="shortenDiv">
             <div className="shortenItems">
-                <textarea></textarea>
-                <button className="shorten">shorten it</button>
+                <textarea onChange={saveUrl}></textarea>
+                <button className="shorten" onClick={ setlets }>shorten it</button>
             </div>
         </div>
     )

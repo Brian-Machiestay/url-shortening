@@ -144,3 +144,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+
+
+/* styles for GeneratedLink component */
+.generateDiv {
+    display: flex;
+    margin-top: 20px;
+    width: 60%;
+    background-color: white;
+}
+
+.your_link {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.generatedLink {
+    margin-right: 30px;
+}
+
+.copy {
+    background-color: aqua;
+    border: none;
+    box-shadow: -2px 2px rgb(65, 245, 245);
+}
