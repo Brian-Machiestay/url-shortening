@@ -5,8 +5,12 @@ import recogniton from "../assets/images/icon-brand-recognition.svg";
 import detailed from "../assets/images/icon-detailed-records.svg";
 import constom from "../assets/images/icon-fully-customizable.svg";
 import GeneratedLink from "./generatedLink";
+import { useState } from "react";
 
 const StatSection = () => {
+    const [link, setLink] = useState("");
+    const [lets_do, setLetsdo] = useState("");
+
     const brand1Title = 'Brand Recognition';
     const brand1text = `Boost your brand recognition 
     with each click. Generic links don't mean 
@@ -20,8 +24,8 @@ const StatSection = () => {
     discoverability through customizable links, supercharging audience engagement`
      return (
         <div className="stats">
-            <Shorten />
-            <GeneratedLink />
+            <Shorten setLink={ setLink } setLetsdo={ setLetsdo }/>
+            <GeneratedLink link={ link } letsDo={lets_do} setLetsdoVal={setLetsdo}/>
             <h3 className="advancedText">Advanced Statistics</h3>
             <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
             <p>And add confidence to your content</p>
