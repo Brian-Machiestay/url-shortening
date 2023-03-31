@@ -2,7 +2,7 @@
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 ## Description
-Shortly is a front-end react application which is built with React and node. This application takes in long urls from and user and provides a shorter url using the url-shortening api. This could be useful for putting documents and professional write ups where long links would break text presentation. Shortly makes your writing life really really easy. It has been tested thoroughly usin the mocha testing framework, chai and sinon for mocking apis so yes, you can trust it.  
+Shortly is a front-end react application which is built with React and node. This application takes in long urls from and user and provides a shorter url using the url-shortening api. This could be useful for putting documents and professional write ups where long links would break text presentation. Shortly makes your writing life really really easy. It has been tested thoroughly usin the mocha testing framework, chai and sinon for mocking apis so yes, you can trust it. Find the link to the deployed app [here](https://64271c77df42df00089a6824--golden-youtiao-b9c3d9.netlify.app/)
 
 ## Table of Content  
 
