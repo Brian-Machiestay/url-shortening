@@ -15,8 +15,8 @@ Shortly is a front-end react application which is built with React and node. Thi
 - [Questions](#questions)  
   
 ## Installation  
- - `git clone git@github.com:Brian-Machiestay/Generate-Readme.git`  
- - `cd Generate-Readme`  
+ - `git clone git@github.com:Brian-Machiestay/url-shortening.git`  
+ - `cd url-shortening`  
  - `npm install`  
 ## Usage  
 
